@@ -178,4 +178,4 @@ async function listFilesWithProgress(directory) {
 const directoryToScan = 'D:/'; // Remplace ce chemin par le répertoire à scanner
 listFilesWithProgress(directoryToScan)
     .then(() => console.log('Analyse terminée'))
-    // .catch(err => console.error(`Erreur lors de l'analyse des fichiers : ${err}`));
+    .catch(err => console.error(`Erreur lors de l'analyse des fichiers : ${err}`));

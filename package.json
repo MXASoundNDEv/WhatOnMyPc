@@ -17,6 +17,7 @@
   "author": "mxa",
   "license": "MIT",
   "dependencies": {
+    "dotenv": "^16.4.5",
     "progress": "^2.0.3"
   }
 }
